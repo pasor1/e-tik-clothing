@@ -1,11 +1,12 @@
 .menu-item {
-  min-width: 30%;
+  width: 31%;
+  min-width: 280px;
   height: 240px;
   flex: 1 1 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
+  border: 1px solid #838383;
   margin: 0 7.5px 15px;
   overflow: hidden;
 
@@ -19,6 +20,7 @@
 
   &.large {
     height: 380px;
+
   }
 
   &:hover {
@@ -48,9 +50,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid black;
+    border: 1px solid #838383;
     background-color: white;
-    opacity: 0.7;
+    opacity: 0.8;
     position: absolute;
 
     .title {
